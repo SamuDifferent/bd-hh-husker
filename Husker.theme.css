@@ -3,17 +3,20 @@
  * @description A Better Discord Theme based on Husker from Hazbin Hotel.
  * @author SamuDifferent
  * @version 0.1.0
- * @invite nz87hXyvcy
+ * @invite sAggxXw
  * @source https://raw.githubusercontent.com/SamuDifferent/bd-hh-husker/refs/heads/main/Husker.theme.css
  * @authorId 700683647598198794
 */
+
+/* import theme font */
+@import url('https://github.com/SamuDifferent/bd-hh-husker/blob/main/Font.ttf');
 
 /* import theme modules */
 @import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
 
 body {
     /* font options */
-    --font: 'Ubuntu'; /* change to '' for default discord font */
+    --font: 'MrDarcyW01-Regular'; /* change to '' for default discord font */
     --code-font: ''; /* change to '' for default discord font */
     font-weight: 400; /* normal text font weight. DOES NOT AFFECT BOLD TEXT */
 
@@ -40,8 +43,8 @@ body {
 
     /* dms button options */
     --custom-dms-icon: custom; /* off: use default discord icon, hide: remove icon entirely, custom: use custom icon */
-    --dms-icon-svg-url: url('https://refact0r.github.io/midnight-discord/assets/Font_Awesome_5_solid_moon.svg'); /* icon svg url. MUST BE A SVG. */
-    --dms-icon-svg-size: 90%; /* size of the svg (css mask-size property) */
+    --dms-icon-svg-url: url('https://raw.githubusercontent.com/SamuDifferent/bd-hh-husker/refs/heads/main/Suits.svg'); /* icon svg url. MUST BE A SVG. */
+    --dms-icon-svg-size: 100%; /* size of the svg (css mask-size property) */
     --dms-icon-color-before: var(--icon-secondary); /* normal icon color */
     --dms-icon-color-after: var(--white); /* icon color when button is hovered/selected */
     --custom-dms-background: off; /* off to disable, image to use a background image (must set url variable below), color to use a custom color/gradient */
